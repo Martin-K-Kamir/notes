@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "name": "Patricia Simonis",
+      "id": 1
+    },
+    {
+      "name": "Terrence Sauer III",
+      "id": 2
+    },
+    {
+      "name": "Naomi Kozey",
+      "id": 3
+    },
+    {
+      "name": "Gilbert Murray",
+      "id": 4
+    },
+    {
+      "name": "Doyle Simonis",
+      "id": 5
+    },
+    {
+      "name": "Bradley Altenwerth",
+      "id": 6
+    },
+    {
+      "name": "Sophie Quitzon",
+      "id": 7
+    },
+    {
+      "name": "Deborah Gerlach",
+      "id": 8
+    },
+    {
+      "name": "Tara Stanton",
+      "id": 9
+    }
+  ],
+  "albums": [
+    {
+      "userId": 6,
+      "title": "Gorgeous Plastic Soap",
+      "id": 2
+    },
+    {
+      "userId": 6,
+      "title": "Unbranded Steel Hat",
+      "id": 3
+    },
+    {
+      "userId": 6,
+      "title": "Incredible Bronze Chair",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "Unbranded Concrete Fish",
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "title": "Rustic Soft Mouse",
+      "id": 15
+    },
+    {
+      "userId": 9,
+      "title": "Handmade Cotton Pants",
+      "id": 16
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 14,
+      "url": "https://picsum.photos/seed/qdgxt/150/150",
+      "id": 1
+    },
+    {
+      "albumId": 14,
+      "url": "https://picsum.photos/seed/DviUZ/150/150",
+      "id": 3
+    },
+    {
+      "albumId": 14,
+      "url": "https://picsum.photos/seed/bulQcW/150/150",
+      "id": 5
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150?lock=1204290007859200",
+      "id": 8
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150?lock=2425235315884032",
+      "id": 9
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150?lock=3025418804264960",
+      "id": 10
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150?lock=1262919966785536",
+      "id": 11
+    },
+    {
+      "albumId": 16,
+      "url": "https://picsum.photos/seed/DG909P/150/150",
+      "id": 12
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150?lock=6354973247930368",
+      "id": 13
+    },
+    {
+      "albumId": 16,
+      "url": "https://picsum.photos/seed/2513glf/150/150",
+      "id": 14
+    },
+    {
+      "albumId": 16,
+      "url": "https://picsum.photos/seed/kQivL/150/150",
+      "id": 15
+    },
+    {
+      "albumId": 16,
+      "url": "https://picsum.photos/seed/thKJFhZiS/150/150",
+      "id": 16
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150?lock=6064498146279424",
+      "id": 17
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150?lock=177671262699520",
+      "id": 18
+    },
+    {
+      "albumId": 16,
+      "url": "https://picsum.photos/seed/qMTazv/150/150",
+      "id": 19
+    },
+    {
+      "albumId": 16,
+      "url": "https://picsum.photos/seed/QnRCY0J/150/150",
+      "id": 20
+    }
+  ]
+}
