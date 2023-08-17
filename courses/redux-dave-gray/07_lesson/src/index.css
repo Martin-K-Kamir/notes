@@ -5,9 +5,9 @@
 }
 
 html {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: white;
-  color: #000;
+  font-family: system-ui;
+  background-color: #202124;
+  color: #eee;
 }
 
 body {
@@ -27,8 +27,8 @@ header {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  background-color: purple;
+  align-items: center;
+  background-color: #0047cb;
   color: whitesmoke;
   position: sticky;
   top: 0;
@@ -44,6 +44,7 @@ nav ul {
 }
 
 nav ul li {
+  font-size: 1rem;
   display: inline-block;
   margin-right: 1rem;
 }
@@ -68,16 +69,18 @@ section {
 
 article {
   margin: 0.5em;
-  border: 1px solid #000;
+  border: 1px solid #eee;
   border-radius: 10px;
   padding: 1em;
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 
 h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
@@ -104,12 +107,12 @@ textarea {
 .postCredit a, 
 .postCredit a:visited {
   margin-right: 0.5rem;
-  color: black;
+  color: #eee;
 }
 
 .postCredit a:hover, 
 .postCredit a:focus {
-  color: hsla(0, 0%, 0%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 .excerpt {
@@ -120,11 +123,37 @@ textarea {
   margin: 0 0.25em 0 0;
   background: transparent;
   border: none;
-  color: #000;
+  color: #eee;
   font-size: 1rem;
 }
 
 .deleteButton {
   background-color: palevioletred;
   color: white;
+}
+
+ul {
+  font-size: 0.9rem;
+}
+
+li {
+  font-size: 0.9rem;
+}
+
+li + li {
+  margin-top: 0.5rem;
+}
+
+a:link {
+  color: #eee;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ababab;
 }

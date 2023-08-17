@@ -101,8 +101,8 @@ const EditPostForm = () => {
                     Save Post
                 </button>
                 <button className="deleteButton"
-                    type="button"
-                    onClick={onDeletePostClicked}
+                        type="button"
+                        onClick={onDeletePostClicked}
                 >
                     Delete Post
                 </button>

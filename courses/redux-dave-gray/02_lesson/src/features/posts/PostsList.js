@@ -5,9 +5,11 @@ import TimeAgo from "./TimeAgo";
 import ReactionButtons from "./ReactionButtons";
 
 const PostsList = () => {
-    const posts = useSelector(selectAllPosts)
+    const posts = useSelector(selectAllPosts);
 
-    const orderedPosts = posts.slice().sort((a, b) => b.date.localeCompare(a.date))
+    const orderedPosts = posts
+        .slice()
+        .sort((a, b) => b.date.localeCompare(a.date));
 
     const renderedPosts = orderedPosts.map(post => (
         <article key={post.id}>
@@ -19,13 +21,13 @@ const PostsList = () => {
             </p>
             <ReactionButtons post={post} />
         </article>
-    ))
+    ));
 
     return (
         <section>
             <h2>Posts</h2>
             {renderedPosts}
         </section>
-    )
-}
-export default PostsList
+    );
+};
+export default PostsList;

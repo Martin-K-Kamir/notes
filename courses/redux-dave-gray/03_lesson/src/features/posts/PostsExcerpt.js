@@ -1,8 +1,7 @@
 import PostAuthor from "./PostAuthor";
 import TimeAgo from "./TimeAgo";
 import ReactionButtons from "./ReactionButtons";
-
-const PostsExcerpt = ({ post }) => {
+export default function PostsExcerpt({ post }) {
     return (
         <article>
             <h3>{post.title}</h3>
@@ -13,6 +12,5 @@ const PostsExcerpt = ({ post }) => {
             </p>
             <ReactionButtons post={post} />
         </article>
-    )
+    );
 }
-export default PostsExcerpt

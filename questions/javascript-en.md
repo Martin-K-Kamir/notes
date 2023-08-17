@@ -52,6 +52,20 @@ In summary, `undefined` is the default value when no value is assigned to a vari
 
 ---
 
+**What is the event loop?:**
+
+The event loop is a task that keeps checking if there are any items in the callback queue and forwards them to the call stack but only when the call stack is empty.
+
+---
+
+**How do you create a deep copy?:**
+
+We previously relied on the JSON.parse(JSON.stringify(yourObjectHere)); hack (this is legacy information, you should not use it anymore but you may encounter it in some interview questions).
+
+We can now use the structuredClone() function to create a deep copy.
+
+---
+
 **Different Data Types in JavaScript:**
 
 Here is a list of several commonly used data types in JavaScript:

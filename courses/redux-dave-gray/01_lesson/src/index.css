@@ -9,6 +9,8 @@ body {
   font-size: 5rem;
   display: grid;
   place-content: center;
+  background: #333333;
+  color: #ffffff;
 }
 
 input,

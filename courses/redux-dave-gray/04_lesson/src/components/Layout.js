@@ -1,15 +1,13 @@
-import { Outlet } from 'react-router-dom';
-import Header from './Header';
+import { Outlet } from "react-router-dom";
+import Header from "./Header";
 
-const Layout = () => {
+export default function Layout() {
     return (
         <>
             <Header />
-            <main className="App">
+            <main className="app">
                 <Outlet />
             </main>
         </>
-    )
+    );
 }
-
-export default Layout
